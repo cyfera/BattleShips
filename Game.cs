@@ -22,7 +22,7 @@ public class Game
 
     private void SetupPlayerShips(int playerIndex)
     {
-        Ship[] ships = { new Ship(4), new Ship(3), new Ship(3),new Ship(2),new Ship(2),new Ship(2),new Ship(1),new Ship(1),new Ship(1),new Ship(1),new Ship(1) };
+        Ship[] ships = { new Ship(4), new Ship(3), new Ship(3),new Ship(2),new Ship(2),new Ship(2),new Ship(1),new Ship(1),new Ship(1),new Ship(1)};
         Board board = boards[playerIndex];
 
         foreach (Ship ship in ships)
