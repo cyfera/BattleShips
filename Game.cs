@@ -111,10 +111,13 @@ public void Play()
                 }
             }
             else
-            {
-                Console.WriteLine("Gracz nie trafił. Kolej na przeciwnika.");
-                currentPlayerIndex = 1 - currentPlayerIndex;
-            }
+              {
+                 Console.WriteLine("Gracz nie trafił. Kolej na przeciwnika.");
+                 currentPlayerIndex = 1 - currentPlayerIndex;
+                 Thread.Sleep(5000); 
+                 Console.Clear();
+              }
+
         }
     }
 }
